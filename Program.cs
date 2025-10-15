@@ -30,7 +30,7 @@ TransmissionStats? transmissionStats2 = JsonConvert.DeserializeObject<Transmissi
 
 if (transmissionStats1 == null || transmissionStats2 == null)
 {
-    throw new ArgumentNullException("Transmission object(s) cannot be null");
+    throw new ArgumentNullException("TransmissionStats object(s) cannot be null");
 }
 
 BitrateCalculator bitrateCalculator = new BitrateCalculator(2.0);
