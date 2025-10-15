@@ -59,7 +59,7 @@
 
             if (delta < 0)
             {
-                throw new ApplicationException("Tx value decreased between readings, possible data issue.");
+                throw new ApplicationException("Rx value decreased between readings, possible data issue.");
             }
 
             double bitrate = delta / timeIntervalInSec; // bits per second
