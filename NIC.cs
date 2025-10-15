@@ -9,8 +9,10 @@ namespace Bitrate
     {
         [JsonRequired]
         public required string Description { get; set; }
+
         [JsonRequired]
         public required string MAC { get; set; }
+
         [JsonRequired]
         public DateTime Timestamp { get; set; }
 
